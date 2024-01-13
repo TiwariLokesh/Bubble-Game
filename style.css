@@ -8,3 +8,53 @@ body{
     width: 100%;
     background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
 }
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#panel{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#ptop{
+    width: 100%;
+    height: 16%;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.main-box h4{
+color: white;
+font-size: 1.4rem;
+font-weight: 400;
+}
+
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.box1{
+    padding: 15px 25px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: purple;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
