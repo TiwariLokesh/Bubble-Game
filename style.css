@@ -58,15 +58,31 @@ font-weight: 400;
     font-weight: 600;
 }
 
+#pbtm{
+    width: 100%;
+
+align-items: center;
+justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    height: calc(100% - 100px);
+ 
+}
+
 .circle{
     width:65px;
     height: 65px;
     border-radius: 100%;
     background-color: purple;
-    margin: 10px 10px;
+    margin: 8px 8px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     font-size: 1.2rem;
+}
+.circle:hover{
+    background-color: rgb(94, 2, 94);
+    cursor: pointer;
 }
