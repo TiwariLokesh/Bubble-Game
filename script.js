@@ -1,6 +1,9 @@
 var timer = 60;
 var hit = 0;
 var score = 0;
+
+
+
 //Bubble formation
 function makeBubble(){
     var clutter = "";
@@ -12,6 +15,8 @@ function makeBubble(){
 }
 makeBubble();
 
+
+//Timer 
 function setTimer(){
     var timerint = setInterval(function(){
         if(timer>0){
@@ -26,9 +31,22 @@ function setTimer(){
 }
 setTimer();
 
+
+
+
+//New hit
 function newHit(){
  var hit = Math.floor(Math.random()*10)
  document.querySelector("#hit").textContent = hit;
 }
 newHit();
+
+
+
+//Increase Score
+function increaseScore(){
+    score+=10;
+    document.querySelector("#score").textContent=score;
+}
+increaseScore();
 
